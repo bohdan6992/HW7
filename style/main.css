@@ -1,0 +1,72 @@
+.wrapper 
+{
+  border: 2px solid rgba(248, 2, 138, 0.815);
+  width: 800px;
+  height: 650px;
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image:url("./img/granG.jpg");
+  background-size: 100%;
+  box-shadow: 0 0 10px rgba(248, 2, 138, 0.815);
+}
+.inner
+{
+  border: 2px solid rgba(252, 252, 15, 0.76);
+  width: 700px;
+  height: 480px; 
+  border-radius: 10px;
+  margin: 20px 50px 0px 50px; 
+  background-image:url("./img/granW.jpg");
+  background-size: 100%;
+  box-shadow: 0 0 10px rgba(252, 252, 15, 0.76);
+}
+.ANJ
+{
+  text-align: center;
+  border-radius: 10px;
+}
+.name
+{
+  text-align: center;
+  text-shadow: 1px 1px 2px black, 0 0 1em rgba(248, 2, 138, 0.815);
+}
+.work
+{
+  text-align: center;
+  font-size: 14px;
+  font-style: italic;
+  font-weight: 1500;
+  padding-top: 0px;
+}
+.information
+{
+  text-align: center;
+  font-size: 14px;
+  font-style: italic;
+  font-weight: 600;
+}
+.awards
+{
+  margin-left: 50px;
+  margin-top: 10px;
+  color: rgb(255, 255, 255);
+  text-shadow: 1px 1px 2px black, 0 0 1em rgba(252, 252, 15, 0.76);
+  font-style: italic;
+}
+.list
+{
+  margin-left: 20px;
+  margin-bottom: 20px;
+  
+}
+.li1
+{
+  color: rgba(248, 2, 138, 0.815);
+}
+.li2 
+{
+  color: rgba(252, 252, 15, 0.76);
+}
+
+
