@@ -5,50 +5,54 @@
 *{
   box-sizing: border-box;
 }
-a{
-  text-decoration: none;
-  display: inline-block;
-}
 .header{
   margin: 0 auto;
 }
 .container{
   max-width: 1401px;
-  padding: 0px 15px;
+  min-height: 788px;
   margin: 0 auto;
 }
 .header__inner{
-  background-image: url("../img/Star-Wars-bg.png");
+  background: #fc0 url("../img/Star-Wars-bg.png");
   background-position: center;
-  background-size: unset;
+  background-size: inherit;
   background-repeat: no-repeat;
   padding-top: 206px;
   padding-left: 831px;
-  padding-bottom: 71px;
-  max-width: 1440px;
-  text-align:center ;
+  padding-bottom: 200px;
+  text-align: left ;
 }
 .header__inner-text{
-  padding-bottom: 395px;
+  padding-bottom: 134px;
 }
 .header-text__title{
-  font-family: "BebasNeue";
-  font-size: 36px;
+  font-family: "HelveticaNeue";
   color: white;
-  letter-spacing: 5.70937px;
+  height: 43px;
+  font-size: 36px;
+  line-height: 42px;
 }
 .header-text__discribe{
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 600;
+  font-family: "HelveticaNeue";
   font-size: 24px;
+  line-height: 28px;
+  height: 29px;
   color: white;
-  line-height: 28,13px;
 }
-.header__inner-btn a{
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 600;
-  font-size: 11px;
-  line-height: 15px;
+.header__inner-btn button{
+  font-family: "HelveticaNeue";
+  font-size: 16px;
+  line-height: 21px;
   color: white;
-  letter-spacing: 3.7px;
+}
+.btn-1{
+  background: #8DD83D;
+  border-radius: 4px;
+  padding: 8px 24px 9px 19px;
+}
+.btn-2{
+  background: linear-gradient(180deg, #686C6F 0%, #373A3C 100%);
+  border-radius: 4px;
+  padding: 8px 19px 9px 19px;
 }
