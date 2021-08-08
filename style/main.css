@@ -12,6 +12,7 @@
   max-width: 1401px;
   min-height: 788px;
   margin: 0 auto;
+  position: relative;
 }
 .header__inner{
   background: #fc0 url("../img/Star-Wars-bg.png");
@@ -46,13 +47,17 @@
   line-height: 21px;
   color: white;
 }
-.btn-1{
-  background: #8DD83D;
+button{
+  background: linear-gradient(180deg, #686C6F 0%, #373A3C 100%);
   border-radius: 4px;
+  border: 0px;
+}
+.btn-1{
   padding: 8px 24px 9px 19px;
 }
 .btn-2{
-  background: linear-gradient(180deg, #686C6F 0%, #373A3C 100%);
-  border-radius: 4px;
   padding: 8px 19px 9px 19px;
+}
+button:hover{
+  background: #8DD83D;
 }
