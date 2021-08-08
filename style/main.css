@@ -13,42 +13,36 @@ a{
   margin: 0 auto;
 }
 .container{
-  max-width: 1440px;
+  max-width: 1401px;
   padding: 0px 15px;
   margin: 0 auto;
 }
 .header__inner{
-  background-image: url("../img/header-bg.png");
+  background-image: url("../img/Star-Wars-bg.png");
   background-position: center;
-  background-size: cover;
+  background-size: unset;
   background-repeat: no-repeat;
-  padding-top: 41px;
+  padding-top: 206px;
+  padding-left: 831px;
   padding-bottom: 71px;
   max-width: 1440px;
   text-align:center ;
 }
-.header__inner-logo{
-  padding-bottom: 318px;
-}
-.header__inner-logo img{
-  width: 100px;
-  height: 23px;
-}
 .header__inner-text{
-  padding-bottom: 220px;
+  padding-bottom: 395px;
 }
 .header-text__title{
   font-family: "BebasNeue";
-  font-size: 60px;
+  font-size: 36px;
   color: white;
   letter-spacing: 5.70937px;
 }
 .header-text__discribe{
   font-family: 'Open Sans', sans-serif;
   font-weight: 600;
-  font-size: 16px;
+  font-size: 24px;
   color: white;
-  line-height: 22px;
+  line-height: 28,13px;
 }
 .header__inner-btn a{
   font-family: 'Open Sans', sans-serif;
