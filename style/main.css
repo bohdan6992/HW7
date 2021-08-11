@@ -1,84 +1,36 @@
 @import url(./font.css);
 
-/* font-family: 'Open Sans', sans-serif; */
-
 *{
   box-sizing: border-box;
 }
-a{
-  text-decoration: none;
-  display: inline-block;
-}
-.header{
-  margin: 0 auto;
-}
-.container{
-  max-width: 1440px;
-  padding: 0px 15px;
-  margin: 0 auto;
-}
-.header__inner{
-  background-image: url("../img/header-bg.png");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  padding-top: 41px;
-  padding-bottom: 71px;
-  max-width: 1440px;
-  text-align:center ;
-}
-.header__inner-logo{
-  padding-bottom: 318px;
-}
-.header__inner-logo img{
-  width: 100px;
-  height: 23px;
-}
-.header__inner-text{
-  padding-bottom: 220px;
-}
-.header-text__title{
-  font-family: "BebasNeue";
-  font-size: 60px;
-  color: white;
-  letter-spacing: 5.70937px;
-}
-.header-text__discribe{
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 600;
-  font-size: 16px;
-  color: white;
-  line-height: 22px;
-}
-.header__inner-btn a{
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 600;
-  font-size: 11px;
-  line-height: 15px;
-  color: white;
-  letter-spacing: 3.7px;
-}
-
-.menu{
+ a{
+   text-decoration: none;
+   display: inline-block;
+ }
+ /* __________________________________________________________________________________ */
+ .menu{
   margin: 0 auto;
 }
 .menu__inner{
-  background-color: #e6e6e6;
-  padding: 24px 250px 23px;
+  background: #373A3C;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  padding: 11px 163px 8px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 3px;
 }
 .menu__logo img{
-  width: 80px;
-  height: 18px;
+  width: 96px;
+  height: 29px;
   cursor: pointer;
 }
 .menu__list-items{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 0 auto;
+  margin: -15px auto;
   padding: 0;
 }
 .menu__list-item{
@@ -87,13 +39,110 @@ a{
   transition: all 0.3s ease;
 }
 .menu__list-item a{
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 600;
-  font-size: 12px;
+  font-family: "HelveticaNeue";
+  font-weight: 200;
+  font-size: 16px;
   line-height: 16px;
-  color: #485558;
+  color: rgba(255, 255, 255, 0.5);
   letter-spacing: 1.1px;
 }
-.menu__list-item a:hover{
-  color: #00a4e5;
+.menu__list-item a::after{
+  content: url(../img/down-arrow.svg);
 }
+.menu__list-item:last-child::before{
+  content: url(../img/Shape.svg);
+  width: 20px;
+  height: 20px;
+}
+.menu__list-item a:hover{
+  color: #FFFFFF;
+} 
+.menu__list-search input{
+  font-family: "HelveticaNeue";
+  color: #435766;
+  font-size: 16px;
+  line-height: 21px;
+  font-weight: 600;
+  padding: 9px 15.98px 8px;
+  width: 209.8px;
+  height: 38px;
+  background: #FFFFFF;
+  border: 1px solid #CCCCCC;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+ /* __________________________________________________________________________________ */
+ 
+.container{
+  max-width: 1400px;
+  padding: 0 5px;
+  margin: 0 auto;
+}
+.header{
+  margin: 0 auto;
+}
+.header__inner{
+  background-image: url("../img/Star-Wars-bg.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-top: 206px;
+  padding-bottom: 200px;
+}
+.header__about{
+  margin: 0 auto;
+  display: flex;
+  justify-content: flex-end;
+  max-width: 566px;
+  margin-bottom: 134px;
+}
+.header__about-inner{
+  display: flex;
+  flex-direction: column;
+}
+.header__about div{
+  color: white;
+  font-family: "HelveticaNeue";
+}
+.header__about-title{
+  font-size: 36px;
+  line-height: 42px;
+  font-weight: 800;
+  letter-spacing: 3px;
+}
+.header__about-part{
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: 2px;
+}
+.header__btns{
+  margin: 0 auto;
+  display: flex;
+  justify-content: flex-end;
+  max-width: 840px;
+}
+.header_btn{
+  border-radius: 4px;
+  text-align: center;
+  font-family: "HelveticaNeue";
+  font-size: 16px;
+  line-height: 21px;
+  color: white;
+  background: linear-gradient(180deg, #686C6F 0%, #373A3C 100%);
+  border: 0px;
+  letter-spacing: 1px;
+  font-weight: 400;
+}
+button:hover{
+  background: #8DD83D;
+}
+.btn1{
+  padding: 8px 24px 9px 19px;
+  margin-right: 13px;
+}
+.btn2{
+  padding: 8px 19px 9px 19px;
+}
+
