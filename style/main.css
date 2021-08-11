@@ -1,63 +1,148 @@
 @import url(./font.css);
 
-/* font-family: 'Open Sans', sans-serif; */
-
 *{
   box-sizing: border-box;
+}
+ a{
+   text-decoration: none;
+   display: inline-block;
+ }
+ /* __________________________________________________________________________________ */
+ .menu{
+  margin: 0 auto;
+}
+.menu__inner{
+  background: #373A3C;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  padding: 11px 163px 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 3px;
+}
+.menu__logo img{
+  width: 96px;
+  height: 29px;
+  cursor: pointer;
+}
+.menu__list-items{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: -15px auto;
+  padding: 0;
+}
+.menu__list-item{
+  margin-left: 35px;
+  list-style-type: none;
+  transition: all 0.3s ease;
+}
+.menu__list-item a{
+  font-family: "HelveticaNeue";
+  font-weight: 200;
+  font-size: 16px;
+  line-height: 16px;
+  color: rgba(255, 255, 255, 0.5);
+  letter-spacing: 1.1px;
+}
+.menu__list-item a::after{
+  content: url(../img/down-arrow.svg);
+}
+.menu__list-item:last-child::before{
+  content: url(../img/Shape.svg);
+  width: 20px;
+  height: 20px;
+}
+.menu__list-item a:hover{
+  color: #FFFFFF;
+} 
+.menu__list-search input{
+  font-family: "HelveticaNeue";
+  color: #435766;
+  font-size: 16px;
+  line-height: 21px;
+  font-weight: 600;
+  padding: 9px 15.98px 8px;
+  width: 209.8px;
+  height: 38px;
+  background: #FFFFFF;
+  border: 1px solid #CCCCCC;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+ /* __________________________________________________________________________________ */
+ 
+.container{
+  max-width: 1400px;
+  padding: 0 5px;
+  margin: 0 auto;
 }
 .header{
   margin: 0 auto;
 }
-.container{
-  max-width: 1401px;
-  min-height: 788px;
-  margin: 0 auto;
-  position: relative;
-}
 .header__inner{
-  background: #fc0 url("../img/Star-Wars-bg.png");
+  background-image: url("../img/Star-Wars-bg.png");
+  background-size: cover;
   background-position: center;
-  background-size: inherit;
   background-repeat: no-repeat;
   padding-top: 206px;
-  padding-left: 831px;
   padding-bottom: 200px;
-  text-align: left ;
 }
-.header__inner-text{
-  padding-bottom: 134px;
+.header__about{
+  margin: 0 auto;
+  display: flex;
+  justify-content: flex-end;
+  max-width: 566px;
+  margin-bottom: 134px;
 }
-.header-text__title{
-  font-family: "HelveticaNeue";
+.header__about-inner{
+  display: flex;
+  flex-direction: column;
+}
+.header__about div{
   color: white;
-  height: 43px;
+  font-family: "HelveticaNeue";
+}
+.header__about-title{
   font-size: 36px;
   line-height: 42px;
+  font-weight: 800;
+  letter-spacing: 3px;
 }
-.header-text__discribe{
-  font-family: "HelveticaNeue";
+.header__about-part{
+  font-weight: 600;
   font-size: 24px;
   line-height: 28px;
-  height: 29px;
-  color: white;
+  letter-spacing: 2px;
 }
-.header__inner-btn button{
+.header__btns{
+  margin: 0 auto;
+  display: flex;
+  justify-content: flex-end;
+  max-width: 840px;
+}
+.header_btn{
+  border-radius: 4px;
+  text-align: center;
   font-family: "HelveticaNeue";
   font-size: 16px;
   line-height: 21px;
   color: white;
-}
-button{
   background: linear-gradient(180deg, #686C6F 0%, #373A3C 100%);
-  border-radius: 4px;
   border: 0px;
-}
-.btn-1{
-  padding: 8px 24px 9px 19px;
-}
-.btn-2{
-  padding: 8px 19px 9px 19px;
+  letter-spacing: 1px;
+  font-weight: 400;
 }
 button:hover{
   background: #8DD83D;
 }
+.btn1{
+  padding: 8px 24px 9px 19px;
+  margin-right: 13px;
+}
+.btn2{
+  padding: 8px 19px 9px 19px;
+}
+
